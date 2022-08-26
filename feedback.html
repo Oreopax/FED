@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Javascripts   Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <title>Feedback</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/jakethedog.png">
+    <!-- image taken from https://www.kindpng.com/imgv/hibhoo_adventure-time-jake-head-hd-png-download/ -->
+    <link href="css/mainlayout.css" rel="stylesheet" />
+
+    <style>
+        .banner-image{
+            background-image: url('img/feedback.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">My Website <i class="bi bi-emoji-sunglasses"></i></a>
+            <button 
+                type="button"
+                class="navbar-toggler"
+                data-bs-target="#navbarNav"
+                data-bs-toggle="collapse"    
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-lable="Toggle Navbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="splife.html" class="nav-link text-white">Life@SP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="career.html" class="nav-link text-white">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="feedback.html" class="nav-link text-white">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Image -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center">
+            <h1 class="text-white display-4">Feedback Page</h1>
+                         
+        </div>
+    </div>
+
+    <!-- Main content Area -->
+    <div class="class container my-5 d-grid gap-5">
+        <div class="class p-5 border tFeedback">
+            <p>Thank you for reading and going through my web-portfolio! 
+                I do hope that you could spend between 5-10min filling out this survey to 
+                provide suggestions to improve this website.</p>  
+        </div>
+    </div>
+    <!-- creating form  -->
+    <form>
+        <div class="container form">
+            <div class="row">            
+                <div class="col-12 col-md-6 col-xl-4 px-4 py-5">
+                    <div class="firstcol">
+                        <div class="form-group">
+                            <label for="formname" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="formname" placeholder="Mark">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailaddress" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="range" class="form-label">Rate the quality of webpage : (0=poor; 10=great)</label>
+                            <input type="range" class="form-range" min="0" max="5" step="0.5" id="range">
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+                <div class="col-12 col-md-6 col-xl-4 px-4 py-5">  
+                    <div class="secondcol">        
+                        <div class="form-group">
+                            <label for="formselect">What did you like?</label>
+                            <select class="form-control" id="formselect">
+                            <option>Content Written</option>
+                            <option>Design Layout</option>
+                            <option>Images used</option>
+                            <option>User Interface</option>
+                            <option>Nothing</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formselect">What did you not like?</label>
+                            <select class="form-control" id="formselect">
+                            <option>Content Written</option>
+                            <option>Design Layout</option>
+                            <option>Images used</option>
+                            <option>User Interface</option>
+                            <option>Nothing</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Would you recommend this website?</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+
+                
+                <div class="col-12 col-md-6 col-xl-4 px-4 py-5">
+                    <div class="thirdcol">
+                        <div class="form-group">
+                            <label for="formtextarea" class="form-label">Any other feedback?</label>
+                            <textarea class="form-control" id="formtextarea" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                            <label class="form-check-label" for="defaultCheck1">
+                            Are you sure you want to submit?
+                            </label>
+                        </div>
+
+                        <div id="buttons">
+                            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                            <button type="reset" class="btn btn-primary mb-2">Cancel</button>           
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </form>
+    <!-- creating carousel with prev and next button -->
+    <div class="container p-5">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/fam1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/fam2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/fam3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="container-fluid bg-dark align-items-center text-white py-4">| <a href="mailto:ammarabduljabar6@gmail.com" class="text-white">ammarabduljabar6@gmail.com</a> | 
+          <a href="tel:98983924" class="text-white">98983924</a> | 
+          <span class="navbar-text ">
+          <a href="https://instagram.com/_amm6r_?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram px-1 text-white"></i></a>
+          <a href="https://www.facebook.com/ammar.abduljabar.9"><i class="bi bi-facebook px-1 text-white"></i></a>
+          </span>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Javascripts   Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>Life@SP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/jakethedog.png">
+    <!-- image taken from https://www.kindpng.com/imgv/hibhoo_adventure-time-jake-head-hd-png-download/ -->
+    <link href="css/mainlayout.css" rel="stylesheet" />
+    
+
+    <style>
+        .banner-image{
+            background-image: linear-gradient(rgba(46, 48, 59, 0.7),rgba(46, 48, 59, 0.7)),url('img/dism05.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+     <!-- Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="#" id="myBtn" class="navbar-brand">My Website <i class="bi bi-emoji-sunglasses"></i></a>
+            <button 
+                type="button"
+                class="navbar-toggler"
+                data-bs-target="#navbarNav"
+                data-bs-toggle="collapse"    
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-lable="Toggle Navbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="splife.html" class="nav-link text-white">Life@SP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="career.html" class="nav-link text-white">Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="feedback.html" class="nav-link text-white">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Image -->
+    <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+        <div class="content text-center ">
+            <h1 class="text-white display-4">My Life at SP</h1>
+                         
+        </div>
+    </div>
+
+    <!-- Main content Area -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-8 p-5">
+                <!-- creating table which takes up 2/3 in large full screen  -->
+                <div class="table-responsive-sm">
+                        <table class="table table-hover table-light border ">
+                            <thead>
+                            <tr>
+                                <th scope="col">Times</th>
+                                <th scope="col">8:00-9:00</th>
+                                <th scope="col">9:00-10:00</th>
+                                <th scope="col">10:00-11:00</th>
+                                <th scope="col">11:00-12:00</th>
+                                <th scope="col">12:00-13:00</th>
+                                <th scope="col">13:00-14:00</th>
+                                <th scope="col">14:00-15:00</th>
+                                <th scope="col">15:00-16:00</th>
+                                <th scope="col">16:00-17:00</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Monday</th>
+                                <td colspan="5"></td>
+                                <td colspan="2">CAT</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Tuesday</th>
+                                <td colspan="2">FOC</td>
+                                <td></td>
+                                <td>MATH</td>
+                                <td>lunch</td>
+                                <td colspan="3">FED</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Wednesday</th>
+                                <td colspan="3">FED</td>
+                                <td>lunch</td>
+                                <td colspan="3">FOP</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Thursday</th>
+                                <td></td>
+                                <td colspan="2">ECG</td>
+                                <td>Math</td>
+                                <td>lunch</td>
+                                <td colspan="2">CPR</td>
+                                <td colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Friday</th>
+                                <td colspan="2"></td>
+                                <td colspan="2">FOC</td>
+                                <td colspan="2">lunch</td>
+                                <td colspan="3">FOP</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                </div>       
+            </div>
+            <!-- creating paragraph taking up 1/3 of large screen, causing it to be next to the timetable -->
+            <div class="col-xl-4 col-12 p-5 lft1 ">
+                <p>Moving from secondary school to polytechnic, I've had to adapt
+                    to a different style of education. In secondary school, the teaching
+                    is more traditional, with textbooks and worksheets. In polytechnic,
+                    there are more hands on activity. Hence, the changes in polytechnic
+                    has caused me to change the way i learn.</p>  
+            </div>
+        </div>
+    </div>
+    <!-- list text -->
+    <div class="container p-10 lft1">
+        <ul>
+            <li>Flexibility of timetable, as shown on the left, provides me
+                with the chance to rest more and mentally prepare for my lessons</li>
+            <li>Weekly assignments ensures that I am actively learning and not
+                slacking. Thus, I am able to cope with new content being taught without being lost</li>
+            <li>Content provided online so it is necessary to bring a computer device 
+                every lesson. This ensures that I am able to do my work productively during lessons</li>
+        </ul>
+    </div>
+    <!-- creating image map with links of classmates to their instagram -->
+    <div class="container p-10">
+        <p>
+            Here is a picture of my class.
+            (tap on the people to find their instagram)
+        </p>
+        <img src="img/classfoto.jpg" id="classfoto" usemap="#image_map" alt="classphoto">
+        <map name="image_map">
+            <area alt="ansar" title="ansar" href="https://instagram.com/zip.ansar?igshid=YmMyMTA2M2Y=" coords="622,367,685,445" shape="rect">
+            <area alt="cliffson" title="cliffson" href="https://instagram.com/cliffsonnil?igshid=YmMyMTA2M2Y=" coords="403,344,476,433" shape="rect">
+            <area alt="shafeeq" title="shafeeq" href="https://instagram.com/imshafeeeeeq?igshid=YmMyMTA2M2Y=" coords="116,204,175,271" shape="rect">
+            <area alt="jay" title="jay" href="https://instagram.com/jay._.viyas?igshid=YmMyMTA2M2Y=" coords="490,146,533,192" shape="rect">
+            <area alt="rauf" title="rauf" href="https://instagram.com/iamraufla?igshid=YmMyMTA2M2Y=" coords="564,168,603,213" shape="rect">
+            <area alt="jake" title="jake" href="https://instagram.com/og3ta_?igshid=YmMyMTA2M2Y=" coords="752,171,803,245" shape="rect">
+        </map>
+
+    </div>
+
+    <!-- creating collapse section for data on school course -->
+    <div class="container p-5">
+        <div class="class p-5 border tSOC">
+            <p>Singapore Polytechnic School of Computing has different courses offered to suit the different needs of the IT industry.  Click here to find out more! </p>  
+        </div>
+        
+            <div class="row">
+                <div class="col-4">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"> <img src="img/DISM.png" alt="DISM" /></a>
+                </div>
+                <div class="col-4">    
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><img src="img/DIT.png" alt="DIT"></button>
+                </div>
+                <div class="col-4">    
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"><img src="img/CITP.png" alt="CITP"></button>
+                </div>
+            </div> 
+        
+        <div class="row">
+            <div class="col-12 col-xl-4">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                    Diploma in Infocomm Security Management (DISM) - Alongside the basic programming
+                    and computing learning, DISM students are able to learn ways to use that knowledge
+                    to defend from cyberattacks and investigate possible flaws in systems. Students will
+                    also be placed in realistic scenarios at the Cyber Wargame Centre to prepare themselves
+                    on how to deal with actual cyberthreats.
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-4">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                    Diploma in Information Technology (DIT) - DIT students will be focusing on software
+                    development, user experience(UX) design and immersive simulation such as augmented and 
+                    virtual reality. Students would be also given the opportunity to take part in industry 
+                    certified curriculum in order to deepen their knowledge of information technology.
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xl-4">
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                  <div class="card card-body">
+                    Common ICT Programme (DCITP) - Many students are passionate in technology and computing 
+                    but are indecisive on which aspect to join. Hence, DCITP is a semester long programme to 
+                    give students an introduction to the different aspects of computing such as information 
+                    security and information technology.
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <footer>
+        <div class="container-fluid bg-dark align-items-center text-white py-4">| <a href="mailto:ammarabduljabar6@gmail.com" class="text-white">ammarabduljabar6@gmail.com</a> | 
+          <a href="tel:98983924" class="text-white">98983924</a> | 
+          <span class="navbar-text ">
+          <a href="https://instagram.com/_amm6r_?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram px-1 text-white"></i></a>
+          <a href="https://www.facebook.com/ammar.abduljabar.9"><i class="bi bi-facebook px-1 text-white"></i></a>
+          </span>
+        </div>
+    </footer>
+</body>
+</html>
+
